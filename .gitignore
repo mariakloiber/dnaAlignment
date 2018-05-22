@@ -1,0 +1,24 @@
+# Compiled executables (please synchronize with Makefile)
+main
+
+# Hide results.fasta
+/results.fasta
+
+# Object code
+*.o
+*.obj
+
+# Stupid editor saves
+*~
+\#*
+
+# Weird MacOS files
+.DS_Store
+._*
+/.Trash/
+/.Spotlight-V100/
+
+# Weird Windows files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
