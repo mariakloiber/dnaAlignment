@@ -4,7 +4,7 @@
 # This Makefile will *NOT* work on the link machines, unless Nolan
 # decides to install libasan and libasan-static.  You can always
 # remove -fsanitize=address, but I don't guarantee that'll work
-# because that's undefined behavior :)
+# because that is undefined behavior :)
 cflags = -ggdb -std=c++11 -Wall -fsanitize=address
 ldflags = $(cflags)
 
